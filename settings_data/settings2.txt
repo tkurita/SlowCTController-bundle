@@ -1,0 +1,8 @@
+1.000000      # current out factor
+12045.500000      # particles out factor
+10.000000      # timming 1
+600.000000      # timming 2
+0.011068      # current factor
+0.080874      # charge factor
+1      # charge
+2      # harmonics
