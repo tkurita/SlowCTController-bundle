@@ -1,0 +1,9 @@
+[submodule "CT-DSP"]
+	path = CT-DSP
+	url = https://github.com/tkurita/CT-DSP.git
+[submodule "SlowCTController"]
+	path = SlowCTController
+	url = https://github.com/tkurita/SlowCTController.git
+[submodule "flashwriter"]
+	path = flashwriter
+	url = https://github.com/tkurita/CT-DSP-flashwriter.git
