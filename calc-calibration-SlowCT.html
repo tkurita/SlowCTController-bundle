@@ -198,7 +198,7 @@ function calc_coefficient()
   var target_pout_factor = get_field_value("target_pout_factor");
   
   var poutfactor = c_in/current_pout;
-  var new_pout_factor = (target_pout_factor/poutfactor)*current_pout_factor;
+  var new_pout_factor = (poutfactor/target_pout_factor)*current_pout_factor;
   set_field_value("pout_factor", sprintf("%.3f", new_pout_factor));
 }
 
@@ -263,7 +263,7 @@ function calc_coefficient()
 <tbody>
 <tr>
   <td>現在の粒子数 OUT 校正係数</td>
-  <td><input type="text" name="current_pout_factor" value="1000"></td>
+  <td><input type="text" name="current_pout_factor" value="10000"></td>
 </tr>
 <tr>
   <td>現在の粒子数出力 [mVpp]</td>
